@@ -1,0 +1,27 @@
+{
+    "name": "dduers/t3-sitepackage-system",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 CMS Sitepackage: System (Common)",
+    "homepage": "https://docs.typo3.org/permalink/t3sitepackage:start",
+    "version": "1.0.0",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "keywords": [
+        "TYPO3 CMS"
+    ],
+    "require": {
+        "typo3/cms-core": "^14.3",
+        "typo3/cms-backend": "^14.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dduers\\T3SitepackageSystem\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "t3_sitepackage_system"
+        }
+    }
+}
